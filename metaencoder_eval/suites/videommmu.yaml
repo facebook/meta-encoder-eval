@@ -1,0 +1,34 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the Apache License, Version 2.0 found in the
+# LICENSE file in the root directory of this source tree.
+
+VideoMMMU_Perception:
+  dataset_parser: videommmu
+  subset: Perception
+  video_root: vlm2vec_eval/video-tasks/videos/video_qa/VideoMMMU
+  frame_root: vlm2vec_eval/video-tasks/frames/video_qa/VideoMMMU
+  max_frames_saved: 64
+  num_frames: 64
+  num_questions: 300
+  eval_type: local
+
+VideoMMMU_Comprehension:
+  dataset_parser: videommmu
+  subset: Comprehension
+  video_root: vlm2vec_eval/video-tasks/videos/video_qa/VideoMMMU
+  frame_root: vlm2vec_eval/video-tasks/frames/video_qa/VideoMMMU
+  max_frames_saved: 64
+  num_frames: 64
+  num_questions: 300
+  eval_type: local
+
+VideoMMMU_Adaptation:
+  dataset_parser: videommmu
+  subset: Adaptation
+  video_root: vlm2vec_eval/video-tasks/videos/video_qa/VideoMMMU
+  frame_root: vlm2vec_eval/video-tasks/frames/video_qa/VideoMMMU
+  max_frames_saved: 64
+  num_frames: 64
+  num_questions: 300
+  eval_type: local

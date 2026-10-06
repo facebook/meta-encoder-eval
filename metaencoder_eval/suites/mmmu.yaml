@@ -1,0 +1,184 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the Apache License, Version 2.0 found in the
+# LICENSE file in the root directory of this source tree.
+
+mmmuctx_Accounting:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Accounting.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Agriculture:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Agriculture.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Architecture_and_Engineering:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Architecture_and_Engineering.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Art:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Art.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Art_Theory:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Art_Theory.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Basic_Medical_Science:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Basic_Medical_Science.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Biology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Biology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Chemistry:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Chemistry.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Clinical_Medicine:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Clinical_Medicine.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Computer_Science:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Computer_Science.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Design:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Design.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Diagnostics_and_Laboratory_Medicine:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Diagnostics_and_Laboratory_Medicine.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Economics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Economics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Electronics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Electronics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Energy_and_Power:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Energy_and_Power.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Finance:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Finance.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Geography:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Geography.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_History:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_History.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Literature:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Literature.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Manage:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Manage.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Marketing:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Marketing.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Materials:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Materials.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Math:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Math.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Mechanical_Engineering:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Mechanical_Engineering.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Music:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Music.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Pharmacy:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Pharmacy.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Physics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Physics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Psychology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Psychology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Public_Health:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Public_Health.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmmuctx_Sociology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmmu/mmmuctx_Sociology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local

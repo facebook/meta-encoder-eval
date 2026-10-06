@@ -1,0 +1,9 @@
+MetaEncoder evaluation
+
+This repository includes code adapted from VLM2Vec
+(https://github.com/TIGER-AI-Lab/VLM2Vec), licensed under the Apache License 2.0:
+metaencoder_eval/tasks/, metaencoder_eval/metrics.py and metaencoder_eval/utils/.
+
+Changes: imports were rewritten for this package; prompt construction was reduced to the
+MetaEncoder format; unused code, experiment switches and the generic text-retrieval loader were
+removed (NanoBEIR has its own loader); the Video-MMMU parser follows the official protocol.

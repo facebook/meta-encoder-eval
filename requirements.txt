@@ -1,0 +1,19 @@
+# Versions the reference numbers were measured with (Python 3.10, CUDA 12.8).
+torch==2.9.1
+# Must stay <0.27: the reference numbers use the BICUBIC resize fallback; >=0.27 switches the
+# image processor to LANCZOS.
+torchvision==0.24.1
+transformers==5.15.1
+accelerate==1.13.0
+datasets==4.8.5
+huggingface_hub==1.19.0
+numpy==2.2.6
+pandas==2.3.3
+pillow==12.2.0
+pyarrow==24.0.0
+PyYAML==6.0.3
+opencv-python-headless==4.13.0.92
+decord==0.6.0
+av==17.0.1
+# Optional, CUDA only; MetaEncoder selects it automatically when installed.
+# flash_attn==2.8.3

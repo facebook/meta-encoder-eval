@@ -1,0 +1,346 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the Apache License, Version 2.0 found in the
+# LICENSE file in the root directory of this source tree.
+
+mmluF_abstract_algebra:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_abstract_algebra.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_anatomy:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_anatomy.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_astronomy:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_astronomy.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_business_ethics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_business_ethics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_clinical_knowledge:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_clinical_knowledge.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_college_biology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_college_biology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_college_chemistry:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_college_chemistry.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_college_computer_science:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_college_computer_science.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_college_mathematics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_college_mathematics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_college_medicine:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_college_medicine.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_college_physics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_college_physics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_computer_security:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_computer_security.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_conceptual_physics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_conceptual_physics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_econometrics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_econometrics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_electrical_engineering:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_electrical_engineering.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_elementary_mathematics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_elementary_mathematics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_formal_logic:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_formal_logic.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_global_facts:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_global_facts.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_biology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_biology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_chemistry:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_chemistry.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_computer_science:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_computer_science.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_european_history:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_european_history.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_geography:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_geography.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_government_and_politics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_government_and_politics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_macroeconomics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_macroeconomics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_mathematics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_mathematics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_microeconomics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_microeconomics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_physics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_physics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_psychology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_psychology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_statistics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_statistics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_us_history:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_us_history.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_high_school_world_history:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_high_school_world_history.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_human_aging:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_human_aging.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_human_sexuality:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_human_sexuality.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_international_law:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_international_law.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_jurisprudence:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_jurisprudence.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_logical_fallacies:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_logical_fallacies.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_machine_learning:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_machine_learning.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_management:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_management.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_marketing:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_marketing.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_medical_genetics:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_medical_genetics.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_miscellaneous:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_miscellaneous.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_moral_disputes:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_moral_disputes.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_moral_scenarios:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_moral_scenarios.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_nutrition:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_nutrition.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_philosophy:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_philosophy.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_prehistory:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_prehistory.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_professional_accounting:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_professional_accounting.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_professional_law:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_professional_law.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_professional_medicine:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_professional_medicine.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_professional_psychology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_professional_psychology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_public_relations:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_public_relations.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_security_studies:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_security_studies.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_sociology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_sociology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_us_foreign_policy:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_us_foreign_policy.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_virology:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_virology.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local
+
+mmluF_world_religions:
+  dataset_parser: closed_set
+  dataset_path: closed_set/mmlu/mmluF_world_religions.jsonl
+  query_instruction: "Select the correct option."
+  eval_type: local

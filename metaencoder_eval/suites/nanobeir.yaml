@@ -1,0 +1,108 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the Apache License, Version 2.0 found in the
+# LICENSE file in the root directory of this source tree.
+
+text/NanoBEIR/NanoArguAna:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoArguAna
+  eval_type: global
+  query_file: nanobeir/NanoArguAna/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoArguAna/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoArguAna/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoClimateFEVER:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoClimateFEVER
+  eval_type: global
+  query_file: nanobeir/NanoClimateFEVER/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoClimateFEVER/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoClimateFEVER/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoDBPedia:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoDBPedia
+  eval_type: global
+  query_file: nanobeir/NanoDBPedia/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoDBPedia/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoDBPedia/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoFEVER:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoFEVER
+  eval_type: global
+  query_file: nanobeir/NanoFEVER/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoFEVER/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoFEVER/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoFiQA2018:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoFiQA2018
+  eval_type: global
+  query_file: nanobeir/NanoFiQA2018/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoFiQA2018/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoFiQA2018/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoHotpotQA:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoHotpotQA
+  eval_type: global
+  query_file: nanobeir/NanoHotpotQA/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoHotpotQA/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoHotpotQA/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoMSMARCO:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoMSMARCO
+  eval_type: global
+  query_file: nanobeir/NanoMSMARCO/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoMSMARCO/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoMSMARCO/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoNFCorpus:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoNFCorpus
+  eval_type: global
+  query_file: nanobeir/NanoNFCorpus/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoNFCorpus/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoNFCorpus/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoNQ:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoNQ
+  eval_type: global
+  query_file: nanobeir/NanoNQ/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoNQ/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoNQ/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoQuoraRetrieval:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoQuoraRetrieval
+  eval_type: global
+  query_file: nanobeir/NanoQuoraRetrieval/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoQuoraRetrieval/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoQuoraRetrieval/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoSCIDOCS:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoSCIDOCS
+  eval_type: global
+  query_file: nanobeir/NanoSCIDOCS/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoSCIDOCS/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoSCIDOCS/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoSciFact:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoSciFact
+  eval_type: global
+  query_file: nanobeir/NanoSciFact/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoSciFact/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoSciFact/qrels/train-00000-of-00001.parquet
+
+text/NanoBEIR/NanoTouche2020:
+  dataset_parser: nanobeir
+  subset_name: NanoBEIR/NanoTouche2020
+  eval_type: global
+  query_file: nanobeir/NanoTouche2020/queries/train-00000-of-00001.parquet
+  candidate_file: nanobeir/NanoTouche2020/corpus/train-00000-of-00001.parquet
+  qrels_file: nanobeir/NanoTouche2020/qrels/train-00000-of-00001.parquet
