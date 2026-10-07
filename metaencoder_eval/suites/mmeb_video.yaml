@@ -10,7 +10,7 @@ SmthSmthV2:
     frame_root: vlm2vec_eval/video-tasks/frames/video_cls/SSv2
     num_sample_per_subset: 1000
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: local
 HMDB51:
     dataset_parser: video_classification
@@ -19,7 +19,7 @@ HMDB51:
     frame_root: vlm2vec_eval/video-tasks/frames/video_cls/HMDB51
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 UCF101:
     dataset_parser: video_classification
@@ -28,7 +28,7 @@ UCF101:
     frame_root: vlm2vec_eval/video-tasks/frames/video_cls/UCF101
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 K700:
     dataset_parser: video_classification
@@ -37,7 +37,7 @@ K700:
     frame_root: vlm2vec_eval/video-tasks/frames/video_cls/K700
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 Breakfast:
     dataset_parser: video_classification
@@ -46,7 +46,7 @@ Breakfast:
     frame_root: vlm2vec_eval/video-tasks/frames/video_cls/Breakfast
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 
 MSR-VTT:
@@ -56,7 +56,7 @@ MSR-VTT:
     frame_root: vlm2vec_eval/video-tasks/frames/video_ret/data/ziyan/video_retrieval/MSR-VTT/frames/
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 MSVD:
     dataset_parser: msvd
@@ -65,7 +65,7 @@ MSVD:
     frame_root: vlm2vec_eval/video-tasks/frames/video_ret/data/ziyan/video_retrieval/MSVD/frames/
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 DiDeMo:
     dataset_parser: didemo
@@ -74,7 +74,7 @@ DiDeMo:
     frame_root: vlm2vec_eval/video-tasks/frames/video_ret/data/ziyan/video_retrieval/DiDeMo/frames/
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 YouCook2:
     dataset_parser: youcook2
@@ -83,7 +83,7 @@ YouCook2:
     frame_root: vlm2vec_eval/video-tasks/frames/video_ret/data/ziyan/video_retrieval/YouCook2/frames/
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 VATEX:
     dataset_parser: vatex
@@ -92,7 +92,7 @@ VATEX:
     frame_root: vlm2vec_eval/video-tasks/frames/video_ret/data/ziyan/video_retrieval/VATEX/frames/
     num_sample_per_subset: None
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: global
 
 QVHighlight:
@@ -103,9 +103,9 @@ QVHighlight:
     frame_root: vlm2vec_eval/video-tasks/frames/video_mret/QVHighlight
     num_negative_clips: 9
     max_video_frames_saved: 64
-    max_clip_frames_saved: 8
-    num_video_frames: 8
-    num_clip_frames: 8
+    max_clip_frames_saved: 64
+    num_video_frames: 64
+    num_clip_frames: 64
     eval_type: local
 Charades-STA:
     dataset_parser: moment_retrieval
@@ -115,9 +115,9 @@ Charades-STA:
     frame_root: vlm2vec_eval/video-tasks/frames/video_mret/Charades-STA
     num_negative_clips: 9
     max_video_frames_saved: 64
-    max_clip_frames_saved: 8
-    num_video_frames: 8
-    num_clip_frames: 8
+    max_clip_frames_saved: 64
+    num_video_frames: 64
+    num_clip_frames: 64
     eval_type: local
 MomentSeeker:
     dataset_parser: momentseeker
@@ -126,7 +126,7 @@ MomentSeeker:
     clip_root: ""
     frame_root: vlm2vec_eval/video-tasks/frames/video_mret/MomentSeeker
     num_negative_clips: 9
-    num_video_frames: 8
+    num_video_frames: 64
     eval_type: local
 
 Video-MME:
@@ -135,7 +135,7 @@ Video-MME:
     video_root: vlm2vec_eval/video-tasks/videos/video_qa/Video-MME
     frame_root: vlm2vec_eval/video-tasks/frames/video_qa/Video-MME
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: local
 NExTQA:
     dataset_parser: nextqa
@@ -143,7 +143,7 @@ NExTQA:
     video_root: vlm2vec_eval/video-tasks/videos/video_qa/NExTQA
     frame_root: vlm2vec_eval/video-tasks/frames/video_qa/NExTQA
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: local
 EgoSchema:
     dataset_parser: egoschema
@@ -151,7 +151,7 @@ EgoSchema:
     video_root: vlm2vec_eval/video-tasks/videos/video_qa/EgoSchema
     frame_root: vlm2vec_eval/video-tasks/frames/video_qa/egoschema
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: local
 MVBench:
     dataset_parser: mvbench
@@ -159,7 +159,7 @@ MVBench:
     video_root: vlm2vec_eval/video-tasks/videos/video_qa/MVBench
     frame_root: vlm2vec_eval/video-tasks/frames/video_qa/MVBench
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: local
 ActivityNetQA:
     dataset_parser: activitynetqa
@@ -167,5 +167,5 @@ ActivityNetQA:
     video_root: vlm2vec_eval/video-tasks/videos/video_qa/ActivityNetQA
     frame_root: vlm2vec_eval/video-tasks/frames/video_qa/ActivityNetQA
     max_frames_saved: 64
-    num_frames: 8
+    num_frames: 64
     eval_type: local

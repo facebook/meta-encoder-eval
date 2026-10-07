@@ -113,7 +113,8 @@ corpus.
   FiQA2018, NQ, Quora) use the e5-mistral query instruction for that task; the other six use no
   instruction.
 - **MMEB-V3.** MMEB-V3 gathers the MMEB-V2 image, video and visual-document tasks plus MCMR, with the
-  instructions and candidate sets in `metaencoder_eval/tasks/`.
+  instructions and candidate sets in `metaencoder_eval/tasks/`. Video tasks sample up to 64 frames
+  per clip.
 
 ## Layout
 
