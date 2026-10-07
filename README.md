@@ -4,24 +4,13 @@ Reproduces the results reported for [`facebook/meta-encoder`](https://huggingfac
 using only the public model and public data. Every embedding is computed with the
 `MetaEncoder` class that ships with the model.
 
-| Benchmark | This repo | Metric | Tasks |
-| :--- | ---: | :--- | ---: |
-| JEVBench (original / easy / hard) | 0.9444 / 1.0000 / 0.7387 | Accuracy | 3 splits |
-| MMLU | 0.7534 | Hit@1 | 57 subjects |
-| MMMU | 0.5774 | Hit@1 | 30 subjects |
-| NanoBEIR | 0.6634 | nDCG_linear@10 | 13 |
-| MMEB-V3 Image | 0.7887 | Hit@1 | 37 |
-| MMEB-V3 Video | 0.6045 | Hit@1 | 18 |
-| MMEB-V3 VisDoc | 0.8149 | nDCG_linear@5 | 24 |
+![MetaEncoder benchmark results](asset/bench.png)
 
-Two benchmarks follow their official protocol:
+Video-MMMU and ImaJEV-Bench follow their official protocol. Video-MMMU per track
+(Perception / Comprehension / Adaptation) is 0.7600 / 0.5767 / 0.4333 over 900 questions at
+64 frames. ImaJEV-Bench calibration is 0.9012; its test split is scored by the maintainers.
 
-| Benchmark | This repo | Metric | Notes |
-| :--- | ---: | :--- | :--- |
-| Video-MMMU (Perception / Comprehension / Adaptation) | 0.7600 / 0.5767 / 0.4333 | Accuracy | 900 questions, 64 frames; Overall 0.5900 |
-| ImaJEV-Bench, dev / calibration | 0.8555 / 0.9012 | Accuracy (harness) | test split is scored by the maintainers |
-
-"This repo" was measured on 8 x 80 GB GPUs with the pinned `requirements.txt`. Suite scores are
+MetaEncoder scores were measured on 8 x 80 GB GPUs with the pinned `requirements.txt`. Suite scores are
 unweighted means over tasks. Per-task reference numbers are in
 [`reference_scores.json`](reference_scores.json).
 
