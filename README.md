@@ -82,7 +82,8 @@ corpus.
 
   Candidates are the bare labels.
 - **MMLU, MMMU.** The task is `Select the correct option. {question}` with the options listed
-  in the prompt (`Options:\nA. ...`). Candidates are the option texts. MMLU uses the 14,042
+  in the prompt (`Options:\nA. ...`). Candidates are the options as listed, letter plus text
+  (`C. red, oxidative, slow contracting.`). MMLU uses the 14,042
   test questions. MMMU uses the validation and test splits of `MMMU/MMMU` at the pinned revision
   (which includes test answers), minus open-ended questions and questions whose options differ
   only by which image they reference.
