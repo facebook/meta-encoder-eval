@@ -15,7 +15,6 @@ into `MetaEncoder` items:
 content.
 """
 
-QWEN3_VL = "qwen3_vl"
 MUSE_GLIMMER = "muse_glimmer"
 
 INSTRUCTION_SEP = "\ue000"
